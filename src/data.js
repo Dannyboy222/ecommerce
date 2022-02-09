@@ -23,3 +23,21 @@ export const sliderItems = [
 		bg: 'white',
 	},
 ];
+
+export const categories = [
+	{
+		id: 1,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/CNDCS26100__PRODUCT_01--IMG_1200--SANTAL26-706468544.jpg',
+		title: 'CANDLES',
+	},
+	{
+		id: 2,
+		img: 'https://imgix.bustle.com/uploads/image/2017/9/15/4b681d29-86a5-441c-9f7c-7d00703139d3-pbb-dark-magic-black-water.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress',
+		title: 'BATHBOMBS',
+	},
+	{
+		id: 3,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/BODLR31100__PRODUCT_01--IMG_1200--ROSE31--535890675.jpg',
+		title: 'BODY LOTIONS',
+	},
+];

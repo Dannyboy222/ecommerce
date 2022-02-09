@@ -9,6 +9,7 @@ const Container = styled.div`
 	display: flex;
 	position: relative;
 	overflow: hidden;
+	background-color: #4c4d00;
 `;
 
 const Arrow = styled.div`

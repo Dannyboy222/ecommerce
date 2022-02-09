@@ -2,6 +2,7 @@ import React from 'react';
 import Announcement from './Announcement';
 import Navbar from './Navbar';
 import Slider from './Slider';
+import Categories from './Categories';
 
 const Home = () => {
 	return (
@@ -9,6 +10,7 @@ const Home = () => {
 			<Announcement />
 			<Navbar />
 			<Slider />
+			<Categories />
 		</div>
 	);
 };
