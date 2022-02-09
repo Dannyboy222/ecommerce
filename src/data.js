@@ -1,5 +1,3 @@
-import candle1 from './Img/candle1.jpeg';
-
 export const sliderItems = [
 	{
 		id: 1,
@@ -39,5 +37,40 @@ export const categories = [
 		id: 3,
 		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/BODLR31100__PRODUCT_01--IMG_1200--ROSE31--535890675.jpg',
 		title: 'BODY LOTIONS',
+	},
+];
+
+export const popularproducts = [
+	{
+		id: 1,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P002250100__PRODUCT_01--IMG_360--HANDLOTION-702802500.jpg',
+	},
+	{
+		id: 2,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P003250100__PRODUCT_01--IMG_360--SCRUBSHAMPOO-496301317.jpg',
+	},
+	{
+		id: 3,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P003250100__PRODUCT_01--IMG_360--SCRUBSHAMPOO-496301317.jpg',
+	},
+	{
+		id: 4,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/J330010000__PRODUCT_01--IMG_360--SHOWERGEL--2088017620.jpg',
+	},
+	{
+		id: 5,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P002250100__PRODUCT_01--IMG_360--HANDLOTION-702802500.jpg',
+	},
+	{
+		id: 6,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P003250100__PRODUCT_01--IMG_360--SCRUBSHAMPOO-496301317.jpg',
+	},
+	{
+		id: 7,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/J330010000__PRODUCT_01--IMG_360--SHOWERGEL--2088017620.jpg',
+	},
+	{
+		id: 8,
+		img: 'https://lelabocan.ips.photos/lelabocanada/images/skus/P003250100__PRODUCT_01--IMG_360--SCRUBSHAMPOO-496301317.jpg',
 	},
 ];

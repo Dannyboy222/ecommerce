@@ -42,6 +42,12 @@ const Center = styled.div`
 `;
 const Logo = styled.h1`
 	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 43px;
+	color: #4c4d4e;
 `;
 
 const Right = styled.div`
@@ -62,16 +68,18 @@ const Navbar = () => {
 		<Container>
 			<Wrapper>
 				<Left>
+					<Logo>
+						<p>YALETOWN</p>
+						<p style={{ fontSize: 18 }}>CANDLE COMPANY</p>
+					</Logo>
+				</Left>
+				<Center></Center>
+				<Right>
 					<Language>EN</Language>
 					<SearchContainer>
 						<Input />
-						<Search style={{ color: 'gray', fontSize: 16 }} />
+						<Search style={{ color: 'gray', fontSize: 15 }} />
 					</SearchContainer>
-				</Left>
-				<Center>
-					<Logo>YALETOWN</Logo>
-				</Center>
-				<Right>
 					<MenuItem>REGISTER</MenuItem>
 					<MenuItem>SIGN IN</MenuItem>
 					<MenuItem>

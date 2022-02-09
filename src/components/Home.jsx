@@ -3,6 +3,7 @@ import Announcement from './Announcement';
 import Navbar from './Navbar';
 import Slider from './Slider';
 import Categories from './Categories';
+import Products from './Products';
 
 const Home = () => {
 	return (
@@ -11,6 +12,7 @@ const Home = () => {
 			<Navbar />
 			<Slider />
 			<Categories />
+			<Products />
 		</div>
 	);
 };
