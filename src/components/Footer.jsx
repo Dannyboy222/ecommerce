@@ -137,7 +137,7 @@ const Footer = () => {
 				</ContactItem>
 				<ContactItem>
 					<MailOutline style={{ marginRight: '10px' }} />
-					Gareth.candle@gamil.com
+					Yaletown.candle@gamil.com
 				</ContactItem>
 				<Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
 			</Right>

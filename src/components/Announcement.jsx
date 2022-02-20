@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Announcement = () => {
-	return <Container>Gareth is selling candlesssssssss</Container>;
+	return <Container>Welcome to Yaletown Candle</Container>;
 };
 
 export default Announcement;
